@@ -1,0 +1,8 @@
+linha1 = input().split()
+qnt1 = int(linha1[1])
+valor1 = float(linha1[2])
+linha2 = input().split()
+qnt2 = int(linha2[1])
+valor2 = float(linha2[2])
+total = (qnt1 * valor1) + (qnt2 * valor2)
+print(f"VALOR A PAGAR: R$ {total:.2f}")
